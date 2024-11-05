@@ -1,0 +1,33 @@
+! name: Japanese Blog Services
+! description: 日本国内のブログサービスのみを検索結果に表示させます。
+! public: true
+! author: tonsooton
+! license: BSD-3-Clause
+
+$discard
+$boost,site=air-nifty.com
+$boost,site=asablo.jp
+$boost,site=blog.goo.ne.jp
+$boost,site=blog.goo.ne.jp
+$boost,site=blog.kuruten.jp
+$boost,site=blog.ss-blog.jp
+$boost,site=cocolog-nifty.com
+$boost,site=doorblog.jp
+$boost,site=exblog.jp
+$boost,site=fc2.com
+$boost,site=hateblo.jp
+$boost,site=hatenablog.com
+$boost,site=hatenadiary.jp
+$boost,site=jugem.jp
+$boost,site=livedoor.blog
+$boost,site=mblg.tv
+$boost,site=minkara.carview.co.jp
+$boost,site=mixi.jp
+$boost,site=plasa.rakuten.co.jp
+$boost,site=seesaa.net
+$boost,site=tea-nifty.com
+$boost,site=txt-nifty.com
+$boost,site=way-nifty.com
+$boost,site=weblog.to
+/*/$boost,site=ameblo.jp
+/*/$boost,site=note.com

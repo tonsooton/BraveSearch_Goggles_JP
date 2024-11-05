@@ -1,0 +1,18 @@
+! name: JP domains
+! description: .jpドメインのサイトのみを検索結果に表示させます。
+! public: true
+! author: tonsooton
+! license: BSD-3-Clause
+
+
+$discard
+$boost=1,site=ac.jp
+$boost=1,site=ad.jp
+$boost=1,site=ed.jp
+$boost=1,site=go.jp
+$boost=1,site=gr.jp
+$boost=1,site=lg.jp
+$boost=1,site=or.jp
+$boost=2,site=co.jp
+$boost=2,site=ne.jp
+$boost=3,site=jp

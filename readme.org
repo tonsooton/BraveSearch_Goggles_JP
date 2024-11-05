@@ -1,0 +1,43 @@
+* BraveSearch_Goggles_JPについて
+BraveSearch_Goggles_JPは[[https://search.brave.com/][Brave Search]]が提供する機能である[[https://support.brave.com/hc/en-us/articles/10016676007053-検索結果のカスタマイズを行うGogglesとは][Goggles]]を活用し、当検索エンジンを利用する日本語話者にとってより有益な検索結果をもたらすために製作されました。
+
+
+* 利用方法
+[[https://search.brave.com/goggles/discover][Goggleの検索画面]]から各Goggleの名前を検索し、項目の右下の+ボタンを押して追加してください。
+
+
+* 各Goggleについての解説
+
+** abehiroshi.goggle
+90~00年代に流行した、いわゆる「[[http://abehiroshi.la.coocan.jp/][阿部寛のホームページ]]」のようなウェブサイトのみを表示させます。日本国内のISPやレンタルサーバーサービスが提供しているWebスペースのURLを記載しています。
+
+
+** japanese_blog_services.goggle
+日本国内のブログサービスのみを表示させます。独自ドメインを用いているブログは表示されません。
+
+
+** jp_domains.goggle
+[[https://ja.wikipedia.org/wiki/.jp][.jpドメイン]]のサイトのみを表示します。
+
+
+* 問題点
+
+*** abehiroshi.goggle
+- 検索結果で多くのサイトが文字化けになって表示されてしまいます。
+- ユーザー名を指すサブディレクトリ名が~(チルダ)などで区別されていない場合、Webスペースの提供元の公式ホームページが表示される場合がございます。
+
+
+*** japanese_blog_services.goggle
+- ブログサービスを利用している5ちゃんねる系まとめサイトが表示される場合があります。ノイズに思われる方はブラウザ拡張機能の[[https://iorate.github.io/ublacklist/ja/docs/getting-started][ublacklist]]をご活用ください。
+
+
+
+* ライセンス
+[[https://opensource.org/license/BSD-3-clause][修正BSDライセンス]]
+
+
+* 参考にさせていただいたサイト
+- [[https://pixelog.net/post/2020/11/13/191913/][昔ながらの個人サイトを探せる検索エンジンを作った - PIXELOG]]
+- [[https://minakoe.jp/][ブログ検索/解析 皆声]]
+- [[https://jprs.jp/about/jp-dom/spec/][JPドメイン名の種類 - jprs.jp]]
+- [[https://fukuyuki.github.io/mtm.html][まとも検索!! - GitHub Pages]]
