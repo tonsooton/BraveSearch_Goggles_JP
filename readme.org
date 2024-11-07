@@ -8,7 +8,11 @@ BraveSearch_Goggles_JPは[[https://search.brave.com/][Brave Search]]が提供す
 
 * 各Goggleについての解説
 
+<<<<<<< HEAD
 ** [[https://search.brave.com/goggles/profile?goggles_id=https%3A%2F%2Fraw.githubusercontent.com%2Ftonsooton%2FBraveSearch_Goggles_JP%2Fmaster%2Fabehiroshi.goggle][abehiroshi.goggle]]
+=======
+** abehiroshi.goggle
+>>>>>>> origin/master
 90~00年代に流行した、いわゆる「[[http://abehiroshi.la.coocan.jp/][阿部寛のホームページ]]」のようなウェブサイトのみを表示させます。日本国内のISPやレンタルサーバーサービスなどが提供しているWebスペースのURLを記載しています。
 
 
@@ -24,7 +28,11 @@ BraveSearch_Goggles_JPは[[https://search.brave.com/][Brave Search]]が提供す
 
 *** abehiroshi.goggle
 - 検索結果で多くのサイトが文字化けになって表示されてしまいます。
+<<<<<<< HEAD
 - いくつかのドメインにおいて、ユーザー名を示すサブディレクトリ名が~(チルダ)などで区別されていない場合、Webスペースの提供元の公式ホームページが表示される場合がございます。
+=======
+- URLにおいてユーザー名を指すサブディレクトリ名が~(チルダ)などで区別されていない場合、Webスペースの提供元の公式ホームページが表示される場合がございます。
+>>>>>>> origin/master
 
 
 *** japanese_blog_services.goggle
