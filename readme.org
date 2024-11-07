@@ -3,20 +3,20 @@ BraveSearch_Goggles_JPは[[https://search.brave.com/][Brave Search]]が提供す
 
 
 * 利用方法
-[[https://search.brave.com/goggles/discover][Goggleの検索画面]]から各Goggleの名前を検索し、項目の右下の+ボタンを押して追加してください。
+[[https://search.brave.com/goggles/discover][Gogglesの検索画面]]から各Goggleの名前を検索し、項目の右下の+ボタンを押して追加してください。
 
 
 * 各Goggleについての解説
 
-** abehiroshi.goggle
-90~00年代に流行した、いわゆる「[[http://abehiroshi.la.coocan.jp/][阿部寛のホームページ]]」のようなウェブサイトのみを表示させます。日本国内のISPやレンタルサーバーサービスが提供しているWebスペースのURLを記載しています。
+** [[https://search.brave.com/goggles/profile?goggles_id=https%3A%2F%2Fraw.githubusercontent.com%2Ftonsooton%2FBraveSearch_Goggles_JP%2Fmaster%2Fabehiroshi.goggle][abehiroshi.goggle]]
+90~00年代に流行した、いわゆる「[[http://abehiroshi.la.coocan.jp/][阿部寛のホームページ]]」のようなウェブサイトのみを表示させます。日本国内のISPやレンタルサーバーサービスなどが提供しているWebスペースのURLを記載しています。
 
 
-** japanese_blog_services.goggle
+** [[https://search.brave.com/goggles/profile?goggles_id=https%3A%2F%2Fraw.githubusercontent.com%2Ftonsooton%2FBraveSearch_Goggles_JP%2Fmaster%2Fjapanese_blog_services.goggle][japanese_blog_services.goggle]]
 日本国内のブログサービスのみを表示させます。独自ドメインを用いているブログは表示されません。
 
 
-** jp_domains.goggle
+** [[https://search.brave.com/goggles/profile?goggles_id=https%3A%2F%2Fraw.githubusercontent.com%2Ftonsooton%2FBraveSearch_Goggles_JP%2Fmaster%2Fjp_domains.goggles][jp_domains.goggle]]
 [[https://ja.wikipedia.org/wiki/.jp][.jpドメイン]]のサイトのみを表示します。
 
 
@@ -24,11 +24,11 @@ BraveSearch_Goggles_JPは[[https://search.brave.com/][Brave Search]]が提供す
 
 *** abehiroshi.goggle
 - 検索結果で多くのサイトが文字化けになって表示されてしまいます。
-- ユーザー名を指すサブディレクトリ名が~(チルダ)などで区別されていない場合、Webスペースの提供元の公式ホームページが表示される場合がございます。
+- いくつかのドメインにおいて、ユーザー名を示すサブディレクトリ名が~(チルダ)などで区別されていない場合、Webスペースの提供元の公式ホームページが表示される場合がございます。
 
 
 *** japanese_blog_services.goggle
-- ブログサービスを利用している5ちゃんねる系まとめサイトが表示される場合があります。ノイズに思われる方はブラウザ拡張機能の[[https://iorate.github.io/ublacklist/ja/docs/getting-started][ublacklist]]をご活用ください。
+- ブログサービスを利用している5ちゃんねる系まとめサイトが表示される場合があります。ノイズに思われる方はブラウザ拡張機能の[[https://iorate.github.io/ublacklist/ja/docs/getting-started][ublacklist]]をご利用ください。
 
 
 
