@@ -1,43 +1,38 @@
 * BraveSearch_Goggles_JPについて
-BraveSearch_Goggles_JPは[[https://search.brave.com/][Brave Search]]が提供する機能である[[https://support.brave.com/hc/en-us/articles/10016676007053-検索結果のカスタマイズを行うGogglesとは][Goggles]]を活用し、当検索エンジンを利用する日本語話者にとってより有益な検索結果をもたらすために製作されました。
+BraveSearch_Goggles_JPは検索エンジン[[https://search.brave.com/][Brave Search]]を利用する日本語話者向けにカスタマイズされたGoggleを収録したレポジトリです。Goggleの仕様につきましては[[https://support.brave.com/hc/en-us/articles/10016676007053-検索結果のカスタマイズを行うGogglesとは?][公式サイトの解説]]をご覧ください。
 
 
 * 利用方法
-[[https://search.brave.com/goggles/discover][Gogglesの検索画面]]から各Goggleの名前を検索し、項目の右下の+ボタンを押して追加してください。
+[[https://search.brave.com/goggles/discover][Gogglesの検索ページ]]にて各Goggleを検索し、表示される項目の右下にある+ボタンを押してGoggleを追加してください。
 
 
 * 各Goggleについての解説
 
 ** [[https://search.brave.com/goggles/profile?goggles_id=https%3A%2F%2Fraw.githubusercontent.com%2Ftonsooton%2FBraveSearch_Goggles_JP%2Fmaster%2Fabehiroshi.goggle][abehiroshi.goggle]]
-90~00年代に流行した、いわゆる「[[http://abehiroshi.la.coocan.jp/][阿部寛のホームページ]]」のようなウェブサイトのみを表示させます。日本国内のISPやレンタルサーバーサービスなどが提供しているWebスペースのURLを記載しています。
+[[https://ja.wikipedia.org/wiki/File_Transfer_Protocol][FTP]]によってWeb上へコンテンツをアップロードする形式の、いわゆる「[[http://abehiroshi.la.coocan.jp/][阿部寛のホームページ]]」のようなウェブサイトのみを表示させるGoggleです。国内のISPやレンタルサーバーサービスなどが提供しているWebスペースのドメインを記載しています。
+
+
+** [[https://search.brave.com/goggles/profile?goggles_id=https%3A%2F%2Fraw.githubusercontent.com%2Ftonsooton%2FBraveSearch_Goggles_JP%2Fmaster%2Fjp_domains.goggles][dot_jp_second_level_domains.goggle]]
+国内の公的機関・団体・企業などが利用する[[https://ja.wikipedia.org/wiki/.jp#属性型JPドメイン名][属性型JPドメイン名]]のウェブサイトのみを表示させるGoggleです。
 
 
 ** [[https://search.brave.com/goggles/profile?goggles_id=https%3A%2F%2Fraw.githubusercontent.com%2Ftonsooton%2FBraveSearch_Goggles_JP%2Fmaster%2Fjapanese_blog_services.goggle][japanese_blog_services.goggle]]
-日本国内のブログサービスのみを表示させます。独自ドメインを用いているブログは表示されません。
-
-
-** [[https://search.brave.com/goggles/profile?goggles_id=https%3A%2F%2Fraw.githubusercontent.com%2Ftonsooton%2FBraveSearch_Goggles_JP%2Fmaster%2Fjp_domains.goggles][jp_domains.goggle]]
-[[https://ja.wikipedia.org/wiki/.jp][.jpドメイン]]のサイトのみを表示します。
+国内のブログサービスのみを表示させるGoggleです。独自ドメインを使用しているブログは表示されません。
 
 
 * 問題点
 
 *** abehiroshi.goggle
-- 検索結果で多くのサイトが文字化けになって表示されてしまいます。
-- いくつかのドメインにおいて、ユーザー名を示すサブディレクトリ名が~(チルダ)などで区別されていない場合、Webスペースの提供元の公式ホームページが表示される場合がございます。
+- 多くのサイトのリンク・概要欄が文字化けになって検索結果に表示されてしまいます。
+- Webスペースの提供元の公式ホームページを検索結果に含む場合があります。
 
 
 *** japanese_blog_services.goggle
-- ブログサービスを利用している5ちゃんねる系まとめサイトが表示される場合があります。ノイズに思われる方はブラウザ拡張機能の[[https://iorate.github.io/ublacklist/ja/docs/getting-started][ublacklist]]をご利用ください。
-
-
-
-* ライセンス
-[[https://opensource.org/license/BSD-3-clause][修正BSDライセンス]]
+- ブログサービスを利用している5ちゃんねる系まとめサイトが検索結果に表示される場合があります。ノイズに思われる方はブラウザ拡張機能の[[https://iorate.github.io/ublacklist/ja/docs/getting-started][ublacklist]]をご利用ください。
 
 
 * 参考にさせていただいたサイト
 - [[https://pixelog.net/post/2020/11/13/191913/][昔ながらの個人サイトを探せる検索エンジンを作った - PIXELOG]]
 - [[https://minakoe.jp/][ブログ検索/解析 皆声]]
-- [[https://jprs.jp/about/jp-dom/spec/][JPドメイン名の種類 - jprs.jp]]
 - [[https://fukuyuki.github.io/mtm.html][まとも検索!! - GitHub Pages]]
+- [[https://jprs.jp/about/jp-dom/spec/][JPドメイン名の種類 - jprs.jp]]
