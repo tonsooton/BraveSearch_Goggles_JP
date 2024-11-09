@@ -1,5 +1,5 @@
-! name: JP domains
-! description: .jpドメインのサイトのみを検索結果に表示させます。
+! name: .JP Second Level Domains
+! description: 日本国内の公的機関・団体・企業などが利用する属性型JPドメイン名のウェブサイトのみを検索結果に表示させます。
 ! public: true
 ! author: tonsooton
 ! license: BSD-3-Clause
@@ -15,4 +15,3 @@ $boost=1,site=lg.jp
 $boost=1,site=or.jp
 $boost=2,site=co.jp
 $boost=2,site=ne.jp
-$boost=3,site=jp
