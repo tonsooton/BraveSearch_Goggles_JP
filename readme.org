@@ -17,13 +17,13 @@ BraveSearch_Goggles_JPは検索エンジン[[https://search.brave.com/][Brave Se
 
 
 ** [[https://search.brave.com/goggles/profile?goggles_id=https%3A%2F%2Fraw.githubusercontent.com%2Ftonsooton%2FBraveSearch_Goggles_JP%2Fmaster%2Fjapanese_blog_services.goggle][japanese_blog_services.goggle]]
-国内のブログサービスのみを表示させるGoggleです。独自ドメインを使用しているブログは表示されません。
+はてなブログ・note・アメーバブログなどといった国内のブログサービスのみを表示させるGoggleです。独自ドメインを使用しているブログは表示されません。
 
 
 * 問題点
 
 *** abehiroshi.goggle
-- 多くのサイトのリンク・概要欄が文字化けになって検索結果に表示されてしまいます。
+- 多くのサイトのリンク・概要欄が文字化けになって検索結果に表示されてしまいます。([[https://community.brave.com/t/brave-search/579435][Brave公式コミュニティにて報告済]])
 - Webスペースの提供元の公式ホームページを検索結果に含む場合があります。
 
 
