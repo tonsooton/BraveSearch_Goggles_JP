@@ -2,6 +2,7 @@
 ! description: いわゆる「阿部寛のホームページ」のような日本国内のウェブサイトのみを検索結果に表示させます。
 ! public: true
 ! author: tonsooton
+! homepage: https://github.com/tonsooton/BraveSearch_Goggles_JP
 ! license: BSD-3-Clause
 
 
@@ -78,7 +79,6 @@ $boost,site=members.stvnet.home.ne.jp
 $boost,site=mf.ccnw.ne.jp
 $boost,site=mint.hokkai.net
 $boost,site=mite.ne.jp
-$boost,site=mitelog.jp
 $boost,site=muse.dti.ne.jp
 $boost,site=myhp.jcv.jp
 $boost,site=myhp.joetsu.jp
@@ -197,6 +197,7 @@ $boost,site=www.hotweb.or.jp
 $boost,site=www.icn-net.ne.jp
 $boost,site=www.icv.ne.jp
 $boost,site=www.ifnet.jp
+$boost,site=www.infonet.co.jp
 $boost,site=www.interq.or.jp
 $boost,site=www.intio.or.jp
 $boost,site=www.iwami.or.jp

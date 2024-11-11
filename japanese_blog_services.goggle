@@ -2,6 +2,7 @@
 ! description: 日本国内のブログサービスのみを検索結果に表示させます。
 ! public: true
 ! author: tonsooton
+! homepage: https://github.com/tonsooton/BraveSearch_Goggles_JP
 ! license: BSD-3-Clause
 
 $discard
@@ -161,6 +162,7 @@ $boost,site=jugem.jp
 $boost,site=livedoor.blog
 $boost,site=mblg.tv
 $boost,site=minkara.carview.co.jp
+$boost,site=mitelog.jp
 $boost,site=mixi.jp
 $boost,site=plaza.rakuten.co.jp
 $boost,site=sblo.jp
