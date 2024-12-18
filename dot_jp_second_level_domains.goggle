@@ -1,0 +1,18 @@
+! name: .JP Second Level Domains
+! description: 日本国内の公的機関・団体・企業などが使用する属性型JPドメイン名のウェブサイトのみを検索結果に表示させます。
+! public: true
+! author: tonsooton
+! homepage: https://github.com/tonsooton/BraveSearch_Goggles_JP
+! license: BSD-3-Clause
+
+
+$discard
+$boost=1,site=ac.jp
+$boost=1,site=ad.jp
+$boost=1,site=ed.jp
+$boost=1,site=go.jp
+$boost=1,site=gr.jp
+$boost=1,site=lg.jp
+$boost=1,site=or.jp
+$boost=2,site=co.jp
+$boost=2,site=ne.jp

@@ -1,0 +1,41 @@
+* BraveSearch_Goggles_JPについて
+BraveSearch_Goggles_JPは検索エンジン[[https://search.brave.com/][Brave Search]]を利用する日本語話者向けにカスタマイズされたGoggleを収録したレポジトリです。Goggleの仕様につきましては[[https://support.brave.com/hc/en-us/articles/10016676007053-検索結果のカスタマイズを行うGogglesとは?][公式サイトの解説]]をご覧ください。
+
+
+* 利用方法
+[[https://search.brave.com/goggles/discover][Goggleの検索ページ]]にて該当のGoggleを検索し、表示されるタグの右下にある+ボタンをクリックして追加してください。
+
+
+* 各Goggleについての解説
+
+** [[https://search.brave.com/goggles/profile?goggles_id=https%3A%2F%2Fraw.githubusercontent.com%2Ftonsooton%2FBraveSearch_Goggles_JP%2Fmaster%2Fabehiroshi.goggle][abehiroshi.goggle]]
+[[https://ja.wikipedia.org/wiki/File_Transfer_Protocol][FTP]]によってコンテンツをアップロードする「Yahoo!ジオシティーズ」系のウェブサイトのみを表示させます(例:「[[http://abehiroshi.la.coocan.jp/][阿部寛のホームページ]]」)。国内のISPやレンタルサーバーサービスなどが提供するウェブスペースのドメインを記載しています。
+
+
+** [[https://search.brave.com/goggles/profile?goggles_id=https%3A%2F%2Fraw.githubusercontent.com%2Ftonsooton%2FBraveSearch_Goggles_JP%2Fmaster%2Fjp_domains.goggles][dot_jp_second_level_domains.goggle]]
+国内の公的機関・団体・企業などが使用する[[https://ja.wikipedia.org/wiki/.jp#属性型JPドメイン名][属性型JPドメイン名]]のウェブサイトのみを表示させます。
+
+
+** [[https://search.brave.com/goggles/profile?goggles_id=https%3A%2F%2Fraw.githubusercontent.com%2Ftonsooton%2FBraveSearch_Goggles_JP%2Fmaster%2Fjapanese_blog_services.goggle][japanese_blog_services.goggle]]
+はてなブログやnote、アメーバブログなどのブログサービスのみを表示させます。独自ドメインを使用しているブログは表示されません。
+
+
+** [[https://search.brave.com/goggles/profile?goggles_id=https%3A%2F%2Fraw.githubusercontent.com%2Ftonsooton%2FBraveSearch_Goggles_JP%2Fmaster%2Fjapanese_web_hosting_services.goggle][japanese_web_hosting_services.goggle]]
+さくらのレンタルサーバ、XREAなどのレンタルサーバーサービスが保有しているドメインを使用したWebサイトのみを表示させます。
+
+* 問題点
+
+*** abehiroshi.goggle
+- 多くのサイトのリンク・概要欄が文字化けになって検索結果に表示されてしまいます。([[https://community.brave.com/t/brave-search/579435][Brave公式コミュニティにて報告済]])
+- ウェブスペースの提供元の公式ホームページを検索結果に含む場合があります。
+
+
+*** japanese_blog_services.goggle
+- ブログサービスを利用している5ちゃんねる系まとめサイトが検索結果に表示される場合があります。ノイズに思われる方はブラウザ拡張機能の[[https://iorate.github.io/ublacklist/ja/docs/getting-started][ublacklist]]をご利用ください。
+
+
+* 参考にさせていただいたサイト
+- [[https://pixelog.net/post/2020/11/13/191913/][昔ながらの個人サイトを探せる検索エンジンを作った - PIXELOG]]
+- [[https://minakoe.jp/][ブログ検索/解析 皆声]]
+- [[https://fukuyuki.github.io/mtm.html][まとも検索!! - GitHub Pages]]
+- [[https://jprs.jp/about/jp-dom/spec/][JPドメイン名の種類 - jprs.jp]]
