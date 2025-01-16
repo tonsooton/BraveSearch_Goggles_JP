@@ -3,13 +3,13 @@ BraveSearch_Goggles_JPは検索エンジン[[https://search.brave.com/][Brave Se
 
 
 * 利用方法
-[[https://search.brave.com/goggles/discover][Goggleの検索ページ]]にて該当のGoggleを検索し、表示されるタグの右下にある+ボタンをクリックして追加してください。
+[[https://search.brave.com/goggles/discover][Goggleの検索ページ]]にて該当するGoggleを検索し、表示されるボックスの[+]ボタンをクリックして追加してください。
 
 
 * 各Goggleについての解説
 
 ** [[https://search.brave.com/goggles/profile?goggles_id=https%3A%2F%2Fraw.githubusercontent.com%2Ftonsooton%2FBraveSearch_Goggles_JP%2Fmaster%2Fabehiroshi.goggle][abehiroshi.goggle]]
-[[https://ja.wikipedia.org/wiki/File_Transfer_Protocol][FTP]]によってコンテンツをアップロードする「Yahoo!ジオシティーズ」系のウェブサイトのみを表示させます(例:「[[http://abehiroshi.la.coocan.jp/][阿部寛のホームページ]]」)。国内のISPやレンタルサーバーサービスなどが提供するウェブスペースのドメインを記載しています。
+「Yahoo!ジオシティーズ」のようなウェブサイトのみを表示させます(例:「[[http://abehiroshi.la.coocan.jp/][阿部寛のホームページ]]」)。主に国内のISPが提供するウェブスペースのドメインを記載しています。
 
 
 ** [[https://search.brave.com/goggles/profile?goggles_id=https%3A%2F%2Fraw.githubusercontent.com%2Ftonsooton%2FBraveSearch_Goggles_JP%2Fmaster%2Fjp_domains.goggles][dot_jp_second_level_domains.goggle]]
@@ -21,7 +21,7 @@ BraveSearch_Goggles_JPは検索エンジン[[https://search.brave.com/][Brave Se
 
 
 ** [[https://search.brave.com/goggles/profile?goggles_id=https%3A%2F%2Fraw.githubusercontent.com%2Ftonsooton%2FBraveSearch_Goggles_JP%2Fmaster%2Fjapanese_web_hosting_services.goggle][japanese_web_hosting_services.goggle]]
-さくらのレンタルサーバ、XREAなどのレンタルサーバーサービスが保有しているドメインを使用したWebサイトのみを表示させます。
+さくらのレンタルサーバ、FC2などのレンタルサーバーサービスが保有しているドメインを使用したWebサイトのみを表示させます。
 
 * 問題点
 
